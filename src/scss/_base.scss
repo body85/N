@@ -1,0 +1,46 @@
+
+:root {
+    --color-green-1: #27ae60;
+    --color-green-2: #2ecc71;
+    --color-primary-dark: #ba265d;
+
+    --color-grey-heading: #2c3e50;
+    --color-grey-base: #7f8c8d;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-blue-dark: #4b85bf;
+    --color-blue-light: #afc3d4;
+    --color-white: #ecf0f1;
+
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+    --line: 1px solid var(--color-grey-light-2);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-grey-base);
+    background-image: linear-gradient(to bottom, var(--color-blue-dark), var(--color-blue-light));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
