@@ -6,6 +6,7 @@
         
         <!-- Fonts -->
         <link rel="stylesheet" href="fonts/fonts.min.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
@@ -16,12 +17,76 @@
     <body>
        <div class="container">
            <header class="header">
-               <div class="user">
-                    <img src="img/user-photo" alt="" class="user__photo"> 
-                    <span class="user__name"></span>       
+               <div class="header-user">
+                    <img src="img/user-photo.png" alt="" class="header-user__photo"> 
+                    <span class="header-user__name">HOANG NGUYEN</span>       
                </div>
+               <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <div class="user-nav__icon">
+                            <i class="far fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <div class="user-nav__icon">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <div class="user-nav__icon">
+                            <i class="far fa-bell" data-fa-transform="rotate-90"></i>
+                        </div>
+                        <span class="user-nav__notification">2</span>   
+                    </div>
+               </nav>
+               <div class="logo">
+                   <img src="img/logo.png" alt="">
+               </div>
+
+               <form action="" class="search">
+                   <input type="text" class="search__input" placeholder="Type of search">
+                   <button class="search__button">
+                        <i class="fas fa-search"></i> 
+                   </button>
+               </form>
            </header><!-- end header -->
-           <div class="content"></div><!-- end content -->
+           <div class="content">
+               <nav class="sidebar">
+                   <ul class="side-nav">
+                       <li class="side-nav__item">
+                           <a href="" class="side-nav__link">
+                               <i class="fas fa-braille"></i>
+                               <span>DASHBOARD</span>
+                           </a>
+                       </li>
+                       <li class="side-nav__item">
+                           <a href="" class="side-nav__link">
+                               <i class="fas fa-list"></i>
+                               <span>COURES</span>
+                           </a>
+                       </li>
+                       <li class="side-nav__item">
+                           <a href="" class="side-nav__link">
+                               <i class="fas fa-stopwatch"></i>
+                               <span>EXAM</span>
+                           </a>
+                       </li>
+                       <li class="side-nav__item">
+                           <a href="" class="side-nav__link">
+                               <i class="fas fa-adjust"></i>
+                               <span>Q&A</span>
+                           </a>
+                       </li>
+                       <li class="side-nav__item">
+                           <a href="" class="side-nav__link">
+                               <i class="fas fa-rss-square"></i>
+                               <span>NEWS</span>
+                           </a>
+                       </li>
+                   </ul>
+               </nav>
+               <main class="main-content">this is main cintent</main>
+           </div><!-- end content -->
        </div><!-- end container -->
     </body>
 </html>
